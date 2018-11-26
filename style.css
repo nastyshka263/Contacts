@@ -1,0 +1,167 @@
+body {
+  font-family: system-ui;
+  font-size: 24px;
+}
+div.conteiner {
+	width: 1440px;
+  height: 924px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+div.menu_block {
+	width: 332px;
+  height: 861px;
+  float: left;
+  /*position: fixed;*/
+  background-image: linear-gradient(to top, #485173, #24283e);
+}
+
+span.logo {
+	font-size: 29px;
+	color: white;
+	font-weight: bolder;
+  text-align: center;
+  margin: 17px 0 0 55px;
+  display: inline-block;
+}
+
+div.user_cart {
+	margin-top: 52px; 
+}
+div.avatar {
+	width: 48px;
+  height: 48px;
+  background: #d8d8d8;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  border: solid 2px #c30e42;
+  margin: 0 13px 0 55px;
+  float: left;
+}
+
+div.user {
+	text-align: left;
+	color: white;
+	font-size: 17px;
+	float: left;
+	margin-right: 20px;
+}
+
+span.onlain {
+	color: #7e8eda;
+	font-size: 13px;
+}
+
+ul.menu_list {
+	color: white;
+}
+
+input.search_user {
+	margin-top: 57px;
+	background-color: transparent;
+	color: white;
+	opacity: 0.5;
+	margin-left: 55px;
+	width: 222px;
+	height: 27px;
+	border-style: none;
+	font-size: 14px;
+}
+
+div.search_end {
+	float: left;
+	width: 222px;
+	height: 1px;
+	margin: 0px 0 11px 55px;
+	background: white;
+	opacity: 0.7;
+}
+
+ul.menu_list {
+	float: left;
+	margin: 0 15px;
+}
+ul.menu_list li {
+	list-style-type: none;
+}
+
+p.categText {
+	color: #7e8eda;
+	opacity: 0.6;
+	font-size: 16px;
+	margin: 32px 0 14px 55px;
+}
+
+p.bday {
+	float: left;
+	margin: 40px 0 0 55px;
+	color: white;
+	opacity: 0.3;
+}
+
+div.end {
+	float: left;
+	width: 222px;
+	height: 2px;
+	margin: 243px 0 11px 55px;
+	background: #9699a5;
+	opacity: 0.7;
+}
+
+div.add {
+	width: 23px;
+  height: 23px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  margin: 11px 10px 0 55px;
+  float: left;
+  border:solid white 1px;
+}
+
+div.add p {
+	color: white;
+	font-size: 34px;
+	text-align: center;
+	margin-top: -15px;
+}
+
+p.new_contact {
+	color: white;
+	float: left;
+	margin-top: 12px;
+	font-size: 17px;
+}
+
+div#all_contacts {
+	width: 1108px;
+	height: 100%;
+	float:right;
+  /*display: none;*/
+}
+div.text_tab {
+	width: 100%;
+	height: 76px;
+  background-color: white;
+  box-shadow: 0 5px 5px -5px #333;
+}
+
+div.text_tab p {
+	margin: 24px 48px;
+	color: #02bbf1;
+	font-weight: bolder;
+	font-size: 21px;
+	display: inline-block;
+}
+
+div#contact_inform {
+	width: 1108px;
+	height: 100%;
+	float:right;
+	display:none;
+}
+
+div.ul {
+	display: flex;
+}
